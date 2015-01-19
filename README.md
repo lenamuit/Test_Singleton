@@ -14,7 +14,7 @@ It have some problems.
 * The last, if screenB use the intent with wrong type of data, the compiler cannot recognize, it'll raise the **RuntimeException**. Not good at all !
 
 ## II. Solution
-Okay, every Android developers know these problem. I will show you my solution now.
+Okay, every Android developers know these problems. I will show you my solution now.
 
 #### Step 1: Using dagger and dagger compiler
 Add following line into your build.gradle file.
@@ -85,7 +85,7 @@ public class SingletonData {
 
 #### Last step, using Singleton class to save and retrieve data.
 In activity 1,
-```
+```java
 @Inject
 SingletonData data;
 @Override
@@ -123,6 +123,9 @@ protected void onCreate(Bundle savedInstanceState) {
 
 ## III. Conclusion
 As you see, this solution is very simple to implement in your project. And it's very effective. (I hope)
+The key of this solution is [dagger](https://github.com/square/dagger). I love [dagger](https://github.com/square/dagger). 
+It's the dependency injector framework built for Android. 
+You can read more about dagger here https://github.com/square/dagger.
 If you have any questions or idea, please give me an issue.
 You are welcome !
 Thank you.
