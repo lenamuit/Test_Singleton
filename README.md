@@ -120,10 +120,9 @@ protected void onCreate(Bundle savedInstanceState) {
     tv.setText(data.getSavedText());
 }
 ```
-
 ## III. Conclusion
-As you see, this solution is very simple to implement in your project. And it's very effective. (I hope)
-The key of this solution is [dagger](https://github.com/square/dagger). I love [dagger](https://github.com/square/dagger). 
+As you see, this solution is very simple to implement in your project. And it's very effective.
+The key of this solution is [dagger](https://github.com/square/dagger). I love [dagger](https://github.com/square/dagger).
 It's the dependency injector framework built for Android. 
 You can read more about dagger here https://github.com/square/dagger.
 If you have any questions or idea, please give me an issue.
